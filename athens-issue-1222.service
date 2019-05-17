@@ -1,0 +1,10 @@
+[Unit]
+Description=Athens Isssue 1222 Representation
+
+[Service]
+CPUAccounting=yes
+MemoryAccounting=yes
+ExecStart=/go/bin/athens-issue-1222
+
+[Install]
+WantedBy=multi-user.target
